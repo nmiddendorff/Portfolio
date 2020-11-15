@@ -1,4 +1,4 @@
-import Document, { Head, Main, NextScript } from 'next/document';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 import { ServerStyleSheet } from 'styled-components';
 // import FavIcon from 'common/src/assets/image/favicon.png';
 
@@ -29,7 +29,7 @@ export default class CustomDocument extends Document {
   }
   render() {
     return (
-      <html lang="en">
+      <Html lang="en">
         <Head>
           {/* <link rel="shortcut icon" type="image/x-icon" href={FavIcon} /> */}
         </Head>
@@ -37,7 +37,7 @@ export default class CustomDocument extends Document {
           <Main />
           <NextScript />
         </body>
-      </html>
+      </Html>
     );
   }
 }
