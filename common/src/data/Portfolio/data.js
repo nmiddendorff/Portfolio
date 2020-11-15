@@ -38,25 +38,9 @@ import Reviewer3 from '../../assets/image/portfolio/client-avatar-3.jpg';
 
 export const SOCIAL_PROFILES = [
   {
-    icon: socialTwitter,
-    url: '#',
-  },
-  {
-    icon: socialFacebook,
-    url: '#',
-  },
-  {
-    icon: socialDribbbleOutline,
-    url: '#',
-  },
-  {
     icon: socialGithub,
-    url: '#',
-  },
-  {
-    icon: socialGoogleplusOutline,
-    url: '#',
-  },
+    url: 'https://github.com/nmiddendorff',
+  }
 ];
 
 export const MENU_ITEMS = [
