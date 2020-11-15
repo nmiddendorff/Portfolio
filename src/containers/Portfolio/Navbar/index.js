@@ -13,7 +13,7 @@ import { DrawerContext } from '../../../../common/src/contexts/DrawerContext';
 import { MENU_ITEMS } from '../../../../common/src/data/Portfolio/data';
 import ScrollSpyMenu from '../../../../common/src/components/ScrollSpyMenu';
 
-import LogoImage from '../../../../common/src/assets/image/portfolio/logo.png';
+import LogoImage from '../../../../common/src/assets/image/portfolio/MasterLogo.png';
 import LogoImageAlt from '../../../../common/src/assets/image/portfolio/logo-alt.png';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
@@ -39,7 +39,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
           />
           <Logo
             href="#"
-            logoSrc={LogoImageAlt}
+            logoSrc={LogoImage}
             title="Portfolio"
             logoStyle={logoStyle}
             className="logo-alt"
@@ -102,6 +102,7 @@ Navbar.defaultProps = {
   },
   logoStyle: {
     maxWidth: ['120px', '130px'],
+    maxHeight: '38px',
   },
   button: {
     type: 'button',

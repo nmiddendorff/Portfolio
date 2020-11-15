@@ -67,7 +67,7 @@ export const GlobalStyle = createGlobalStyle`
               position: absolute;
               width: calc(100% - 8px);
               height: 11px;
-              background: #c2c7fb;
+              background: #D8F0BD;
               bottom: 2px;
               left: -4px;
               z-index: -1;
@@ -265,7 +265,7 @@ export const ContentWrapper = styled.div`
           a {
             color: #302b4e;
             &:after {
-              background: #c2c7fb;
+              background: #D8F0BD;
             }
           }
         }

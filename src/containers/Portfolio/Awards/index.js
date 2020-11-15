@@ -34,8 +34,8 @@ const AwardsSection = ({
   //Carousel Options
   const carouselOptions = {
     type: 'carousel',
-    autoplay: 4000,
-    perView: 4,
+    autoplay: false,
+    perView: 3,
     gap: 30,
     animationDuration: 800,
     breakpoints: {
@@ -57,11 +57,7 @@ const AwardsSection = ({
         <Box {...secTitleWrapper}>
           <Heading
             {...secTitle}
-            content="Honorable Recognitions &amp; Awards"
-          />
-          <Text
-            {...secDescription}
-            content="Year after year, Blue Label Labs has been recognized as one of the top design and development firms in New York City. It’s nice to feel appreciated!"
+            content="Work History"
           />
         </Box>
 
@@ -83,13 +79,6 @@ const AwardsSection = ({
             {AWARDS.map((award, index) => (
               <GlideSlide key={`award-item-${index}`}>
                 <AwardItem>
-                  <AwardImageWrapper>
-                    <Image
-                      src={award.awardLogo}
-                      alt={`award-logo-${index}`}
-                      {...awardLogoStyle}
-                    />
-                  </AwardImageWrapper>
                   <Heading content={award.awardName} {...awardNameStyle} />
                   <Text content={award.awardDetails} {...awardDetailsStyle} />
                   <AwardeeWrapper>

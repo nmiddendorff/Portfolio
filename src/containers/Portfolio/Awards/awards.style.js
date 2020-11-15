@@ -60,6 +60,7 @@ export const AwardImageWrapper = styled.div`
 
 export const AwardeeLogo = styled.div`
   margin-right: 20px;
+  max-width: 25px;
   flex-shrink: 0;
 `;
 

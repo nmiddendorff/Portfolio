@@ -41,7 +41,7 @@ const BannerSection = ({
               <Heading content="Technical Lead at Hy-Vee" {...roleStyle} />
             </Box>
             <Text
-              content="The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Lorem Ipsum is simply dummy text of the printing."
+              content="I love turning ideas into software."
               {...aboutStyle}
             />
             <SocialProfile items={SOCIAL_PROFILES} />

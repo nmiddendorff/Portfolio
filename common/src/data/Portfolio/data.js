@@ -4,9 +4,9 @@ import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOu
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
 import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
 
-import Awardee1 from '../../assets/image/portfolio/awardee-1.png';
-import Awardee2 from '../../assets/image/portfolio/awardee-2.png';
-import Awardee3 from '../../assets/image/portfolio/awardee-3.png';
+import HonPng from '../../assets/image/portfolio/HON.png';
+import FastpathPng from '../../assets/image/portfolio/Fastpath.png';
+import HyVeePng from '../../assets/image/portfolio/Hyvee.png';
 import Awardee4 from '../../assets/image/portfolio/awardee-4.png';
 import AwardImage1 from '../../assets/image/portfolio/award-1.png';
 import AwardImage2 from '../../assets/image/portfolio/award-2.png';
@@ -68,37 +68,29 @@ export const MENU_ITEMS = [
 
 export const AWARDS = [
   {
-    awardLogo: AwardImage1,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee1,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardLogo: HyVeePng,
+    awardName: 'Hy-Vee',
+    awardDetails: 'Aisles Online Web and Mobile Apps',
+    awardeeLogo: HyVeePng,
+    awardeeName: 'Software Engineer III',
+    date: 'Feb 2018 - Current',
   },
   {
-    awardLogo: AwardImage2,
-    awardName: 'Free Software Advice',
+    awardLogo: FastpathPng,
+    awardName: 'Fastpath',
     awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee2,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
+    awardeeLogo: FastpathPng,
+    awardeeName: 'Application Engineer',
+    date: 'May 2015 – Feb 2018',
   },
   {
-    awardLogo: AwardImage3,
-    awardName: 'Free Software Advice',
+    awardLogo: HonPng,
+    awardName: 'HNI Corporation',
     awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee3,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
-  },
-  {
-    awardLogo: AwardImage4,
-    awardName: 'Free Software Advice',
-    awardDetails: 'Top Rated App Development Companies USA',
-    awardeeLogo: Awardee4,
-    awardeeName: 'Awardee',
-    date: 'The Jury 2018',
-  },
+    awardeeLogo: HonPng,
+    awardeeName: 'Database Admin',
+    date: 'Summer 2014',
+  }
 ];
 
 export const PORTFOLIO_SHOWCASE = [
