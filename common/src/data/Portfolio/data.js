@@ -59,11 +59,11 @@ export const MENU_ITEMS = [
     path: '#awards_section',
     offset: '0',
   },
-  {
-    label: 'PROJECT',
-    path: '#portfolio_section',
-    offset: '0',
-  },
+  // {
+  //   label: 'PROJECT',
+  //   path: '#portfolio_section',
+  //   offset: '0',
+  // },
 ];
 
 export const AWARDS = [

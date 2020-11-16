@@ -11,7 +11,7 @@ import BannerWrapper from './banner.style';
 
 import { SOCIAL_PROFILES } from '../../../../common/src/data/Portfolio/data';
 import { cornerDownRight } from 'react-icons-kit/feather/cornerDownRight';
-import PersonImage from '../../../../common/src/assets/image/portfolio/person.png';
+import PersonImage from '../../../../common/src/assets/image/portfolio/git-changes.jpg';
 
 const BannerSection = ({
   row,
