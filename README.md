@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://middweb.com">
-    {'middweb.com'}
-  </a>
+  <a href="https://middweb.com">middweb.com</a>
 </p>
 
 <br>
