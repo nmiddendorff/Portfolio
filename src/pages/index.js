@@ -31,10 +31,10 @@ const Portfolio = () => {
           <meta name="Description" content="React next landing page" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
-          {/* <link
+          <link
             href="https://fonts.googleapis.com/css?family=Raleway:300,400,400i,500,600,700,800|Roboto:300,400,400i,500,700,900"
             rel="stylesheet"
-          /> */}
+          />
         </Head>
 
         <ResetCSS />
@@ -49,7 +49,7 @@ const Portfolio = () => {
           <BannerSection />
           <ProcessSection />
           <AwardsSection />
-          
+
           {/* <PortfolioShowcase /> */}
           {/* <SkillSection /> */}
           {/* <CallToAction /> */}
