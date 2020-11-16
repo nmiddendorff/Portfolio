@@ -13,6 +13,7 @@ const BannerWrapper = styled.section`
   }
 
   .image_area {
+    opacity: 5%;
     @media (max-width: 767px) {
       display: none;
     }

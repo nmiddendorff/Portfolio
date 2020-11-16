@@ -40,10 +40,10 @@ const BannerSection = ({
               />
               <Heading content="Technical Lead at Hy-Vee" {...roleStyle} />
             </Box>
-            <Text
+            {/* <Text
               content="I love turning ideas into software."
               {...aboutStyle}
-            />
+            /> */}
             <SocialProfile items={SOCIAL_PROFILES} />
           </Box>
           <Box {...imageArea} className="image_area">

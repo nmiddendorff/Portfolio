@@ -4,9 +4,9 @@ import { socialDribbbleOutline } from 'react-icons-kit/ionicons/socialDribbbleOu
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
 import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
 
-import HonPng from '../../assets/image/portfolio/HON.png';
-import FastpathPng from '../../assets/image/portfolio/Fastpath.png';
-import HyVeePng from '../../assets/image/portfolio/Hyvee.png';
+import HonPng from '../../assets/image/portfolio/hon_color.png';
+import FastpathPng from '../../assets/image/portfolio/fastpath_color.png';
+import HyVeePng from '../../assets/image/portfolio/hy-vee_color.png';
 import Awardee4 from '../../assets/image/portfolio/awardee-4.png';
 import AwardImage1 from '../../assets/image/portfolio/award-1.png';
 import AwardImage2 from '../../assets/image/portfolio/award-2.png';
@@ -50,18 +50,18 @@ export const MENU_ITEMS = [
     offset: '0',
   },
   {
-    label: 'PROJECT',
-    path: '#portfolio_section',
+    label: 'TECHNOLOGY',
+    path: '#process_section',
     offset: '0',
   },
   {
-    label: 'AWARDS',
+    label: 'WORK HISTORY',
     path: '#awards_section',
     offset: '0',
   },
   {
-    label: 'WHY ME?',
-    path: '#process_section',
+    label: 'PROJECT',
+    path: '#portfolio_section',
     offset: '0',
   },
 ];
@@ -78,7 +78,7 @@ export const AWARDS = [
   {
     awardLogo: FastpathPng,
     awardName: 'Fastpath',
-    awardDetails: 'Top Rated App Development Companies USA',
+    awardDetails: 'Cloud-based audit platform',
     awardeeLogo: FastpathPng,
     awardeeName: 'Application Engineer',
     date: 'May 2015 – Feb 2018',
@@ -86,10 +86,10 @@ export const AWARDS = [
   {
     awardLogo: HonPng,
     awardName: 'HNI Corporation',
-    awardDetails: 'Top Rated App Development Companies USA',
+    awardDetails: 'Office furniture manufacturer',
     awardeeLogo: HonPng,
     awardeeName: 'Database Admin',
-    date: 'Summer 2014',
+    date: 'May 2014 – Aug 2014',
   }
 ];
 
@@ -374,71 +374,60 @@ export const PROCESS_STEPS = [
 
 export const SERVICE_LIST = [
   {
-    title: 'UI/UX Design',
-    listItems: [
-      {
-        content: 'Design Sprints',
-      },
-      {
-        content: 'User Research',
-      },
-      {
-        content: 'Visual Design',
-      },
-      {
-        content: 'Mobile App Design',
-      },
-      {
-        content: 'Tracking & Learning',
-      },
-      {
-        content: 'Building Traction',
-      },
-    ],
-  },
-  {
-    title: 'Web Development',
+    title: 'Font-End Development',
     listItems: [
       {
         content: 'ReactJS',
       },
       {
+        content: 'NextJS',
+      },
+      {
         content: 'AngularJS',
-      },
-      {
-        content: 'ASP.NET MVC',
-      },
-      {
-        content: 'WordPress',
-      },
-      {
-        content: 'NodeJS',
-      },
-      {
-        content: 'GO',
-      },
-    ],
-  },
-  {
-    title: 'Mobile App Development',
-    listItems: [
-      {
-        content: 'iOS',
-      },
-      {
-        content: 'Android',
       },
       {
         content: 'React Native',
       },
       {
-        content: 'Ionic & Apache Cordova',
+        content: 'ASP.NET MVC',
       },
+
+    ],
+  },
+  {
+    title: 'Backend Development',
+    listItems: [
       {
         content: 'NodeJS',
       },
       {
-        content: '3D & VR',
+        content: 'GraphQL',
+      },
+      {
+        content: 'Google Cloud Platform',
+      },
+      {
+        content: 'Kubernetes',
+      },
+      {
+        content: 'Elasticsearch',
+      },
+    ],
+  },
+  {
+    title: 'Data Engineering',
+    listItems: [
+      {
+        content: 'Postgres',
+      },
+      {
+        content: 'MySQL',
+      },
+      {
+        content: 'Oracle SQL',
+      },
+      {
+        content: 'Microsoft SQL Server',
       },
     ],
   },

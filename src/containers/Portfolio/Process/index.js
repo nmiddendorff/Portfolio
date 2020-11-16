@@ -40,7 +40,7 @@ const ProcessSection = ({
   return (
     <Box {...sectionWrapper} as="section" id="process_section">
       <Container noGutter mobileGutter width="1200px">
-        <Box {...secTitleWrapper}>
+        {/* <Box {...secTitleWrapper}>
           <Heading
             {...secTitle}
             content="From Lean Design Sprints to Agile Development"
@@ -69,31 +69,23 @@ const ProcessSection = ({
               </ProcessItem>
             </Box>
           ))}
-        </Box>
+        </Box> */}
 
         <Box {...learningRow}>
           <Box {...learningContentArea}>
             <Heading
-              content="Which is why we Never Stop Learning."
+              content="Never Stop Learning."
               {...learningTitle}
             />
             <Text
-              content="We believe that we succeed when our clients succeed."
-              {...learningSubTitle}
-            />
-            <Text
               {...learningDescription}
-              content="I’m Tom Parkes, a New Zealand born digital designer currently looking for opportunities in Canada. Over the 8 years of my career, my portfolio includes user interface design, brand & identity design, illustration, and art & creative direction."
-            />
-            <Text
-              {...learningDescription}
-              content="While at Neverbland over the last few years, I've worked on web and product solutions for a range of startups, in a variety of industries."
+              content="This website is my playground for testing new technologies and learning what works and doesn't. "
             />
             <Box {...buttonWrapper}>
-              <Text content="Start Your Project ?" {...buttonLabelStyle} />
+              {/* <Text content="Start Your Project ?" {...buttonLabelStyle} /> */}
               <ButtonWrapper>
                 <Button
-                  title="hello@redq.io"
+                  title="middendorff.nelson@gmail.com"
                   className="portfolio_button"
                   {...buttonStyle}
                 />

@@ -50,11 +50,11 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <Link href="#">
+            {/* <Link href="#">
               <a className="navbar_button">
                 <Button {...button} title="LET'S TALK" />
               </a>
-            </Link>
+            </Link> */}
             <Drawer
               width="420px"
               placement="right"
