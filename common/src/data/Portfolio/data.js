@@ -431,6 +431,23 @@ export const SERVICE_LIST = [
       },
     ],
   },
+  {
+    title: 'Development Principals',
+    listItems: [
+      {
+        content: 'Testing Pyramid',
+      },
+      {
+        content: 'Logging with Correlation IDs',
+      },
+      {
+        content: 'Automated testing in CI/CD pipeline',
+      },
+      {
+        content: 'Code Reviews',
+      },
+    ],
+  },
 ];
 
 export const SKILLS = [
