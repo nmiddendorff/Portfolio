@@ -27,8 +27,8 @@ const Portfolio = () => {
     <ThemeProvider theme={portfolioTheme}>
       <>
         <Head>
-          <title>Portfolio | A react next landing page</title>
-          <meta name="Description" content="React next landing page" />
+          <title>Middweb | Nelson Middendorff | Ecommerce Software Engineer</title>
+          <meta name="Description" content="Sofware Engineer in Des Moines Iowa, specializing in Front-End and Javascript development" />
           <meta name="theme-color" content="#ec5555" />
           {/* Load google fonts */}
           <link
