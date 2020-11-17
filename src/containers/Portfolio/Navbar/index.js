@@ -13,8 +13,8 @@ import { DrawerContext } from '../../../../common/src/contexts/DrawerContext';
 import { MENU_ITEMS } from '../../../../common/src/data/Portfolio/data';
 import ScrollSpyMenu from '../../../../common/src/components/ScrollSpyMenu';
 
-import LogoImage from '../../../../common/src/assets/image/portfolio/MasterLogo.png';
-import LogoImageAlt from '../../../../common/src/assets/image/portfolio/logo-alt.png';
+import LogoImage from '../../../../common/src/assets/image/portfolio/middweb_modern.svg';
+import LogoColorImage from '../../../../common/src/assets/image/portfolio/middweb_modern_color.svg';
 
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
   const { state, dispatch } = useContext(DrawerContext);
@@ -39,7 +39,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
           />
           <Logo
             href="#"
-            logoSrc={LogoImage}
+            logoSrc={LogoColorImage}
             title="Portfolio"
             logoStyle={logoStyle}
             className="logo-alt"
@@ -68,11 +68,11 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              <Link href="#">
+              {/* <Link href="#">
                 <a className="navbar_drawer_button">
                   <Button {...button} title="LET'S TALK" />
                 </a>
-              </Link>
+              </Link> */}
             </Drawer>
           </Box>
         </Box>

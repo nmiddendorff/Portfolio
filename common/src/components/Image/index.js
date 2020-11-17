@@ -8,6 +8,7 @@ const ImageWrapper = styled('img')(
     display: 'block',
     maxWidth: '100%',
     height: 'auto',
+    width: '100%'
   },
   base,
   themed('Image')
