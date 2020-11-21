@@ -3,16 +3,17 @@ import hydrate from 'next-mdx-remote/hydrate';
 import matter from 'gray-matter';
 import fs from 'fs';
 import path from 'path';
+import MarkdownLayout from '../../containers/Portfolio/DynamicMarkdown/MarkdownLayout';
 
 const root = process.cwd();
 
 export default function BlogPost({ mdxSource, frontMatter }) {
   const content = hydrate(mdxSource);
   return (
-    <>
+    <MarkdownLayout>
       <h1>{frontMatter.title}</h1>
       {content}
-    </>
+    </MarkdownLayout>
   );
 }
 export async function getStaticPaths() {
