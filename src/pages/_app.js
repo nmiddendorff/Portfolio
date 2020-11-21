@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import React, { useEffect, Fragment } from 'react';
 import { Modal } from '@redq/reuse-modal';
 // import '@redq/reuse-modal/es/index.css';
@@ -6,8 +7,8 @@ import { Modal } from '@redq/reuse-modal';
 const App = ({ Component, pageProps }) => {
   useEffect(() => {
     heap?.identify('unique_identifier');
-    heap?.addUserProperties({'VisitorType': 'Web'});
-  }, [])
+    heap?.addUserProperties({ VisitorType: 'Web' });
+  }, []);
 
   return (
     <Fragment>
@@ -17,4 +18,4 @@ const App = ({ Component, pageProps }) => {
   );
 };
 
-export default App
+export default App;
