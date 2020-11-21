@@ -44,8 +44,7 @@ const FeatureBlock = ({
     <FeatureBlockWrapper
       className={addAllClasses.join(' ')}
       {...wrapperStyle}
-      {...props}
-    >
+      {...props}>
       {Icon}
 
       {title || description || button ? (

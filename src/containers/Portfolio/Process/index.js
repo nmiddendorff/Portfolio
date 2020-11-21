@@ -11,7 +11,10 @@ import { plus } from 'react-icons-kit/feather/plus';
 
 import { ButtonWrapper } from '../../Portfolio/portfolio.style';
 import ProcessItem from './process.style';
-import { PROCESS_STEPS, SERVICE_LIST } from '../../../../common/src/data/Portfolio/data';
+import {
+  PROCESS_STEPS,
+  SERVICE_LIST,
+} from '../../../../common/src/data/Portfolio/data';
 
 const ProcessSection = ({
   sectionWrapper,
@@ -73,10 +76,7 @@ const ProcessSection = ({
 
         <Box {...learningRow}>
           <Box {...learningContentArea}>
-            <Heading
-              content="Never Stop Learning."
-              {...learningTitle}
-            />
+            <Heading content="Never Stop Learning." {...learningTitle} />
             <Text
               {...learningDescription}
               content="This website is my playground for testing new technologies and learning what works and doesn't. "

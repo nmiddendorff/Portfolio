@@ -16,8 +16,7 @@ const SocialProfile = ({ items, className, iconSize }) => {
       {items.map((item, index) => (
         <SocialProfileItem
           key={`social-item-${index}`}
-          className="social_profile_item"
-        >
+          className="social_profile_item">
           <Link href={item.url || '#'}>
             <a aria-label="social icon">
               <Icon

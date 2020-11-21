@@ -55,10 +55,7 @@ const AwardsSection = ({
     <AwardSectionWrapper id="awards_section">
       <Container noGutter mobileGutter width="1200px">
         <Box {...secTitleWrapper}>
-          <Heading
-            {...secTitle}
-            content="Work History"
-          />
+          <Heading {...secTitle} content="Work History" />
         </Box>
 
         <GlideCarousel
@@ -73,8 +70,7 @@ const AwardsSection = ({
             <NextButton>
               <span />
             </NextButton>
-          }
-        >
+          }>
           <>
             {AWARDS.map((award, index) => (
               <GlideSlide key={`award-item-${index}`}>

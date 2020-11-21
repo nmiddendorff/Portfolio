@@ -5,7 +5,7 @@ import ComponentWrapper from './radioGroup.style';
 const RadioGroup = ({ className, name, value, items, onUpdate }) => {
   const [state, setState] = useState({ value: value });
 
-  const onChange = e => {
+  const onChange = (e) => {
     const currentValue = e.target.value;
     setState({
       ...state,
@@ -22,21 +22,14 @@ const RadioGroup = ({ className, name, value, items, onUpdate }) => {
 
   return (
     <ComponentWrapper className={addAllClasses.join(' ')}>
-      {items.map(item => (
+      {items.map((item) => (
         <label
-          htmlFor={item.title
-            .toLowerCase()
-            .split(' ')
-            .join('-')}
+          htmlFor={item.title.toLowerCase().split(' ').join('-')}
           key={`radio__group-id${item.id}`}
-          className={state.value === item.value ? 'active' : ''}
-        >
+          className={state.value === item.value ? 'active' : ''}>
           <input
             type="radio"
-            id={item.title
-              .toLowerCase()
-              .split(' ')
-              .join('-')}
+            id={item.title.toLowerCase().split(' ').join('-')}
             name={name}
             onChange={onChange}
             value={item.value}

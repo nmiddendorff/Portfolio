@@ -37,7 +37,7 @@ const TooltipStyle = styled.span`
 
     &::after {
       border-top: 9px solid
-        ${props => (props.tooltipColor ? props.tooltipColor : '#131212')};
+        ${(props) => (props.tooltipColor ? props.tooltipColor : '#131212')};
       bottom: 0;
     }
   }
@@ -48,7 +48,7 @@ const TooltipStyle = styled.span`
 
     &::after {
       border-bottom: 9px solid
-        ${props => (props.tooltipColor ? props.tooltipColor : '#131212')};
+        ${(props) => (props.tooltipColor ? props.tooltipColor : '#131212')};
       top: 0;
     }
   }
@@ -72,7 +72,7 @@ const TooltipStyle = styled.span`
 
     &::after {
       border-left: 9px solid
-        ${props => (props.tooltipColor ? props.tooltipColor : '#131212')};
+        ${(props) => (props.tooltipColor ? props.tooltipColor : '#131212')};
       right: 0;
     }
   }
@@ -83,7 +83,7 @@ const TooltipStyle = styled.span`
 
     &::after {
       border-right: 9px solid
-        ${props => (props.tooltipColor ? props.tooltipColor : '#131212')};
+        ${(props) => (props.tooltipColor ? props.tooltipColor : '#131212')};
       left: 0;
     }
   }
@@ -116,7 +116,7 @@ const BubbleSize = styled.div`
 `;
 
 const BubbleStyle = styled.div`
-  background-color: ${props =>
+  background-color: ${(props) =>
     props.tooltipColor ? props.tooltipColor : '#131212'};
   border-radius: 3px;
   color: #ffffff;

@@ -1,5 +1,6 @@
 {
-  "navItems": [{
+  "navItems": [
+    {
       "label": "Home",
       "path": "#home",
       "offset": "70",
@@ -42,7 +43,8 @@
       "staticLink": true
     }
   ],
-  "features": [{
+  "features": [
+    {
       "id": 1,
       "icon": "../../assets/image/saasMinimal2/features/1.png",
       "title": "Analytics Report",
@@ -67,7 +69,8 @@
       "desc": "We’re driven beyond just finishing the projects. We want to find smart solutions."
     }
   ],
-  "clients": [{
+  "clients": [
+    {
       "id": 1,
       "logo": "../../assets/image/saasMinimal2/clients/1.png",
       "name": "Slack"
@@ -98,7 +101,8 @@
       "name": "OralUnic"
     }
   ],
-  "statistics": [{
+  "statistics": [
+    {
       "id": 1,
       "value": 15,
       "url": "#",
@@ -117,7 +121,8 @@
       "title": "increase in reservations"
     }
   ],
-  "dashboardProcess": [{
+  "dashboardProcess": [
+    {
       "id": 1,
       "icon": "../../assets/image/saasMinimal2/dashboard/1.png",
       "title": "User Management"
@@ -133,7 +138,8 @@
       "title": "Security & Privacy"
     }
   ],
-  "testimonials": [{
+  "testimonials": [
+    {
       "id": 1,
       "photo": "../../assets/image/saasMinimal2/testimonials/1.png",
       "rating": 4,
@@ -166,7 +172,8 @@
       "text": "“My company has changed completely after I started using Coalize solutions. My employees are more motivated and I have managed to increase talent retention with the happiest service."
     }
   ],
-  "footerNav": [{
+  "footerNav": [
+    {
       "id": 1,
       "url": "#",
       "title": "Support"
@@ -187,7 +194,8 @@
       "title": "Contact"
     }
   ],
-  "socialLinks": [{
+  "socialLinks": [
+    {
       "id": 1,
       "icon": "../../assets/image/saasMinimal2/social/fb.png",
       "link": "#",

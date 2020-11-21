@@ -27,16 +27,14 @@ const Drawer = ({
         open={open}
         onClose={toggleHandler}
         className={addAllClasses.join(' ')}
-        {...props}
-      >
+        {...props}>
         <div
           className="reusecore-drawer__close"
           onClick={toggleHandler}
           style={closeButtonStyle}
           role="button"
           tabIndex="0"
-          onKeyPress={() => {}}
-        >
+          onKeyPress={() => {}}>
           {closeButton}
         </div>
         {children}
@@ -47,8 +45,7 @@ const Drawer = ({
         onClick={toggleHandler}
         role="button"
         tabIndex="0"
-        onKeyPress={() => {}}
-      >
+        onKeyPress={() => {}}>
         {drawerHandler}
       </div>
     </Fragment>

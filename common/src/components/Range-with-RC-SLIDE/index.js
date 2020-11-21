@@ -9,7 +9,7 @@ const createSliderWithTooltip = Slider.createSliderWithTooltip;
 const Range = createSliderWithTooltip(Slider.Range);
 const Handle = Slider.Handle;
 
-const toolTipHandleFunc = props => {
+const toolTipHandleFunc = (props) => {
   const { value, dragging, index, ...restProps } = props;
   return (
     <Tooltip
@@ -17,14 +17,13 @@ const toolTipHandleFunc = props => {
       overlay={value}
       visible={dragging}
       placement="top"
-      key={index}
-    >
+      key={index}>
       <Handle value={value} {...restProps} />
     </Tooltip>
   );
 };
 
-const SliderBox = props => {
+const SliderBox = (props) => {
   const {
     min,
     max,
@@ -52,7 +51,7 @@ const SliderBox = props => {
   );
 };
 
-const RangeBox = props => {
+const RangeBox = (props) => {
   const {
     min,
     max,
@@ -83,7 +82,7 @@ const RangeBox = props => {
       value={[defaultThresholdInit, defaultThresholdLast]}
       onChange={handleChangefunc}
       disabled={disabled}
-      tipFormatter={value => `${value}${unit}`}
+      tipFormatter={(value) => `${value}${unit}`}
       tipProps={toolTipConfig}
       vertical={vertical}
       {...others}

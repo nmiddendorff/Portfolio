@@ -82,7 +82,7 @@ const BulletButton = styled.button`
   padding: 0;
   outline: none;
   border-radius: 50%;
-  background-color: #D6D6D6;
+  background-color: #d6d6d6;
 
   &:hover,
   &.glide__bullet--active {

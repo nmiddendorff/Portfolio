@@ -56,8 +56,7 @@ const Button = ({
       disabled={disabled}
       icon-position={position}
       onClick={onClick}
-      {...props}
-    >
+      {...props}>
       {position === 'left' && buttonIcon}
       {title && <span className="btn-text">{title}</span>}
       {position === 'right' && buttonIcon}

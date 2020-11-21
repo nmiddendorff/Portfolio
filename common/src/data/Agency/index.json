@@ -1,5 +1,6 @@
 {
-  "menuItems": [{
+  "menuItems": [
+    {
       "label": "Feature",
       "path": "#featureSection",
       "offset": "80"
@@ -35,7 +36,8 @@
       "offset": "100"
     }
   ],
-  "aboutus": [{
+  "aboutus": [
+    {
       "id": 1,
       "title": "Amazing communication experience.",
       "icon": "flaticon-next"
@@ -56,7 +58,8 @@
       "icon": "flaticon-next"
     }
   ],
-  "features": [{
+  "features": [
+    {
       "id": 1,
       "icon": "flaticon-flask",
       "title": "Search Optimization",
@@ -93,7 +96,8 @@
       "description": "Proper Content Management is important to find out the real clients for your agencies"
     }
   ],
-  "qualityFeature": [{
+  "qualityFeature": [
+    {
       "id": 1,
       "icon": "flaticon-flask",
       "title": "Search Optimization",
@@ -118,7 +122,8 @@
       "description": "Proper Content Management is important to find out the real clients for your agencies ."
     }
   ],
-  "blog": [{
+  "blog": [
+    {
       "id": 1,
       "title": "Real home corporation",
       "thumbnail_url": "../../assets/image/agency/blog/blog-img1.png",
@@ -140,12 +145,14 @@
       "postLink": "#3"
     }
   ],
-  "teamMember": [{
+  "teamMember": [
+    {
       "id": 1,
       "name": "Jessica Fanddy",
       "thumbnail_url": "../../assets/image/agency/team/member-1.jpg",
       "designation": "Co Founder",
-      "social_links": [{
+      "social_links": [
+        {
           "id": 1,
           "icon": "flaticon-facebook-logo",
           "url": "#"
@@ -172,7 +179,8 @@
       "name": "Devid Justingul",
       "thumbnail_url": "../../assets/image/agency/team/member-2.jpg",
       "designation": "Senior Ui/UX Designer",
-      "social_links": [{
+      "social_links": [
+        {
           "id": 1,
           "icon": "flaticon-facebook-logo",
           "url": "#"
@@ -199,7 +207,8 @@
       "name": "Handdy Albuzz",
       "thumbnail_url": "../../assets/image/agency/team/member-3.jpg",
       "designation": "Article Writer",
-      "social_links": [{
+      "social_links": [
+        {
           "id": 1,
           "icon": "flaticon-facebook-logo",
           "url": "#"
@@ -222,7 +231,8 @@
       ]
     }
   ],
-  "testimonial": [{
+  "testimonial": [
+    {
       "id": 1,
       "name": "Jon Doe",
       "designation": "CEO of Denish Co.",
@@ -251,7 +261,8 @@
       "avatar_url": "../../assets/image/agency/client/menny.png"
     }
   ],
-  "faq": [{
+  "faq": [
+    {
       "id": 1,
       "expend": true,
       "title": "How to contact with Customer Service?",
@@ -273,10 +284,12 @@
       "description": "We are giving the update of this theme continuously . You will receive an email Notification when we push an update. Always try to be updated with us ."
     }
   ],
-  "menuWidget": [{
+  "menuWidget": [
+    {
       "id": 1,
       "title": "About Us",
-      "menuItems": [{
+      "menuItems": [
+        {
           "id": 1,
           "url": "#1",
           "text": "Support Center"
@@ -306,7 +319,8 @@
     {
       "id": 2,
       "title": "Our Information",
-      "menuItems": [{
+      "menuItems": [
+        {
           "id": 1,
           "url": "#1",
           "text": "Return Policy"
@@ -336,7 +350,8 @@
     {
       "id": 3,
       "title": "My Account",
-      "menuItems": [{
+      "menuItems": [
+        {
           "id": 1,
           "url": "#1",
           "text": "Press inquiries"
@@ -366,7 +381,8 @@
     {
       "id": 4,
       "title": "Policy",
-      "menuItems": [{
+      "menuItems": [
+        {
           "id": 1,
           "url": "#1",
           "text": "Application security"
@@ -389,7 +405,8 @@
       ]
     }
   ],
-  "social_profile": [{
+  "social_profile": [
+    {
       "id": 1,
       "icon": "flaticon-facebook-logo",
       "link": "https://www.facebook.com/redqinc/"

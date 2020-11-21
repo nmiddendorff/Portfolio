@@ -1,5 +1,6 @@
 {
-  "navItems": [{
+  "navItems": [
+    {
       "label": "Home",
       "path": "#home",
       "offset": "70"
@@ -35,7 +36,8 @@
       "offset": "70"
     }
   ],
-  "services": [{
+  "services": [
+    {
       "id": 1,
       "icon": "../../assets/image/donation/our-mission/1.png",
       "title": "Healthy & Fresh Food",
@@ -71,7 +73,8 @@
       "link": "#"
     }
   ],
-  "presetAmounts": [{
+  "presetAmounts": [
+    {
       "id": 1,
       "label": "$5",
       "value": 5
@@ -92,7 +95,8 @@
       "value": 100
     }
   ],
-  "effectedCountries": [{
+  "effectedCountries": [
+    {
       "id": 1,
       "name": "Italy",
       "flag": "../../assets/image/donation/italy.png",
@@ -111,7 +115,8 @@
       "amount": 2277
     }
   ],
-  "suggestions": [{
+  "suggestions": [
+    {
       "id": 1,
       "thumb": "../../assets/image/donation/suggestions/1.png",
       "title": "Wash your hand at least 20 sec"
@@ -132,7 +137,8 @@
       "title": "Don’t eat raw food, thoroughly cook eggs & meat."
     }
   ],
-  "footerNav": [{
+  "footerNav": [
+    {
       "id": 1,
       "url": "#home",
       "title": "Home"

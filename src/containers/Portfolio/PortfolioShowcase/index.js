@@ -54,8 +54,7 @@ const PortfolioShowcase = ({
         <PortfolioShowcaseWrapper>
           <Tabs
             renderTabBar={() => <ScrollableInkTabBar />}
-            renderTabContent={() => <TabContent animated={false} />}
-          >
+            renderTabContent={() => <TabContent animated={false} />}>
             {PORTFOLIO_SHOWCASE.map((tabItem, index) => (
               <TabPane
                 tab={
@@ -65,8 +64,7 @@ const PortfolioShowcase = ({
                     as="span"
                   />
                 }
-                key={index + 1}
-              >
+                key={index + 1}>
                 <GlideCarousel
                   carouselSelector={`portfolio-showcase-carousel-${index + 1}`}
                   options={carouselOptions}
@@ -79,8 +77,7 @@ const PortfolioShowcase = ({
                     <NextButton>
                       <span />
                     </NextButton>
-                  }
-                >
+                  }>
                   <>
                     {tabItem.portfolioItem.map((portfolioItem, index) => (
                       <GlideSlide key={`PortfolioShowcaseItem-${index}`}>
@@ -127,8 +124,7 @@ const PortfolioShowcase = ({
                                 <MetaItem className="meta_featured">
                                   FEATURED IN
                                   <Link
-                                    href={portfolioItem.featuredLink || '#'}
-                                  >
+                                    href={portfolioItem.featuredLink || '#'}>
                                     <a>{portfolioItem.featuredIn}</a>
                                   </Link>
                                 </MetaItem>

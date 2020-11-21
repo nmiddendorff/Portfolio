@@ -13,7 +13,8 @@ const LoaderStyle = styled.span`
   overflow: hidden;
   border-width: 2px;
   border-style: solid;
-  border-color: ${props => (props.loaderColor ? props.loaderColor : '#000000')};
+  border-color: ${(props) =>
+    props.loaderColor ? props.loaderColor : '#000000'};
   border-top-color: transparent !important;
 
   /* animation goes here */

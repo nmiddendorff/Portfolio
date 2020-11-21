@@ -82,8 +82,7 @@ const ListGrid = ({
                 width={columnWidth}
                 key={index}
                 {...componentContainerStyle}
-                className="singleGridBox"
-              >
+                className="singleGridBox">
                 {component(item, index)}
               </Box>
             ))}
@@ -91,7 +90,7 @@ const ListGrid = ({
         ) : null}
         {loading && (
           <>
-            {limits.map(index => (
+            {limits.map((index) => (
               <Box width={columnWidth} key={index} {...componentContainerStyle}>
                 {placeholder ? placeholder : <Text content="Loading ..." />}
               </Box>

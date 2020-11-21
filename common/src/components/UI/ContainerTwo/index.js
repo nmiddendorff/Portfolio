@@ -22,8 +22,7 @@ const Container = ({
       fullWidth={fullWidth}
       noGutter={noGutter}
       width={width}
-      mobileGutter={mobileGutter}
-    >
+      mobileGutter={mobileGutter}>
       {children}
     </ContainerWrapper>
   );

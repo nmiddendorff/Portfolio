@@ -23,7 +23,7 @@ import {
 const FeatureBlockWrapper = styled.div`
   &.icon_left {
     display: flex;
-    .icon__wrapper{
+    .icon__wrapper {
       flex-shrink: 0;
     }
   }
@@ -33,7 +33,7 @@ const FeatureBlockWrapper = styled.div`
     .content__wrapper {
       text-align: right;
     }
-    .icon__wrapper{
+    .icon__wrapper {
       flex-shrink: 0;
     }
   }

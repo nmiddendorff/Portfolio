@@ -60,8 +60,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
               placement="right"
               drawerHandler={<HamburgMenu barColor="#3444f1" />}
               open={state.isOpen}
-              toggleHandler={toggleHandler}
-            >
+              toggleHandler={toggleHandler}>
               <ScrollSpyMenu
                 className="mobile_menu"
                 menuItems={MENU_ITEMS}

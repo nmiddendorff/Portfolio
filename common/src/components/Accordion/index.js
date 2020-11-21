@@ -30,8 +30,7 @@ const Accordion = ({
     <AccordionWrapper
       allowZeroExpanded={allowZeroExpanded}
       className={addAllClasses.join(' ')}
-      preExpanded={preExpanded}
-    >
+      preExpanded={preExpanded}>
       {children}
     </AccordionWrapper>
   );

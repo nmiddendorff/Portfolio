@@ -265,7 +265,7 @@ export const ContentWrapper = styled.div`
           a {
             color: #302b4e;
             &:after {
-              background: #D8F0BD;
+              background: #d8f0bd;
             }
           }
         }

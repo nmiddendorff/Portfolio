@@ -39,7 +39,7 @@ const changeColor = (color, ratio, darker) => {
       : color
           .replace(
             /^#?([a-f0-9][a-f0-9])([a-f0-9][a-f0-9])([a-f0-9][a-f0-9])/i,
-            function() {
+            function () {
               return (
                 parseInt(arguments[1], 16) +
                 ',' +

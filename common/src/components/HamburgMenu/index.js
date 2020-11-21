@@ -17,8 +17,7 @@ const HamburgMenu = ({ className, wrapperStyle, barColor, ...props }) => {
       {...wrapperStyle}
       barColor={barColor}
       aria-label="hamburgMenu"
-      {...props}
-    >
+      {...props}>
       <span />
       <span />
       <span />

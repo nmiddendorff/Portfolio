@@ -46,13 +46,11 @@ const Tooltip = ({
       className={addAllClasses.join(' ')}
       onMouseLeave={hideTooltip}
       tooltipColor={tooltipColor}
-      {...props}
-    >
+      {...props}>
       {state.open && (
         <BubbleSize
           className={`tooltip-bubble tooltip-${position}`}
-          {...bubbleSize}
-        >
+          {...bubbleSize}>
           <BubbleStyle className="tooltip-message" {...bubbleStyle}>
             {message}
           </BubbleStyle>
@@ -61,8 +59,7 @@ const Tooltip = ({
       <TriggerStyle
         className="tooltip-trigger"
         onMouseOver={showTooltip}
-        {...triggerStyle}
-      >
+        {...triggerStyle}>
         {children}
       </TriggerStyle>
     </TooltipStyle>

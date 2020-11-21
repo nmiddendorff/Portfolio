@@ -12,7 +12,7 @@ import { base, themed } from '../base';
 const BoxWrapper = styled('div')(
   base,
   themed('Box'),
-  props =>
+  (props) =>
     props.flexBox &&
     css(
       { display: 'flex' },

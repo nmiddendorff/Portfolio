@@ -54,8 +54,7 @@ const GlideCarousel = ({
   return (
     <GlideWrapper
       className={addAllClasses.join(' ')}
-      id={carouselSelector || 'glide'}
-    >
+      id={carouselSelector || 'glide'}>
       <div className="glide__track" data-glide-el="track">
         <ul className="glide__slides">{children}</ul>
       </div>
@@ -65,22 +64,19 @@ const GlideCarousel = ({
         <ButtonControlWrapper
           className="glide__controls"
           data-glide-el="controls"
-          {...buttonWrapperStyle}
-        >
+          {...buttonWrapperStyle}>
           <ButtonWrapper
             {...prevWrapper}
             className="glide__prev--area"
             data-glide-dir="<"
-            aria-label="prev"
-          >
+            aria-label="prev">
             {prevButton ? prevButton : <DefaultBtn>Prev</DefaultBtn>}
           </ButtonWrapper>
           <ButtonWrapper
             {...nextWrapper}
             className="glide__next--area"
             data-glide-dir=">"
-            aria-label="next"
-          >
+            aria-label="next">
             {nextButton ? nextButton : <DefaultBtn>Next</DefaultBtn>}
           </ButtonWrapper>
         </ButtonControlWrapper>
@@ -91,10 +87,9 @@ const GlideCarousel = ({
         <BulletControlWrapper
           className="glide__bullets"
           data-glide-el="controls[nav]"
-          {...bulletWrapperStyle}
-        >
+          {...bulletWrapperStyle}>
           <Fragment>
-            {totalBullets.map(index => (
+            {totalBullets.map((index) => (
               <BulletButton
                 key={index}
                 className="glide__bullet"

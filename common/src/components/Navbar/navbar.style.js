@@ -19,7 +19,7 @@ const NavbarStyle = styled.nav`
   align-items: center;
   min-height: 56px;
   padding: 10px 16px;
-  
+
   /* Style system supported prop */
   ${display}
   ${alignItems}

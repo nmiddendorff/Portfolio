@@ -5,7 +5,7 @@ import {
   DropdownMenuItemWrapper,
 } from './dropdown.style';
 
-const DropdownMenu = props => {
+const DropdownMenu = (props) => {
   const [menuState, setMenuState] = useState({
     show: false,
   });
@@ -18,7 +18,7 @@ const DropdownMenu = props => {
   });
 
   const handleToggle = () => {
-    setMenuState(prevState => ({
+    setMenuState((prevState) => ({
       ...menuState,
       show: !prevState.show,
     }));
@@ -33,13 +33,12 @@ const DropdownMenu = props => {
   const { content, dropdownItems, dropdownDirection, className } = props;
 
   return (
-    <DropdownMenuWrapper onClick={e => e.stopPropagation()}>
+    <DropdownMenuWrapper onClick={(e) => e.stopPropagation()}>
       <span onClick={handleToggle}>{content}</span>
       {menuState.show && (
         <DropdownMenuItemsWrapper
           className={className}
-          dropdownDirection={dropdownDirection}
-        >
+          dropdownDirection={dropdownDirection}>
           {dropdownItems &&
             dropdownItems.map((item, index) => (
               <DropdownMenuItemWrapper key={index} onClick={handleToggle}>

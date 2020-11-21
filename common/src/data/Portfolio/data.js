@@ -40,7 +40,7 @@ export const SOCIAL_PROFILES = [
   {
     icon: socialGithub,
     url: 'https://github.com/nmiddendorff',
-  }
+  },
 ];
 
 export const MENU_ITEMS = [
@@ -90,7 +90,7 @@ export const AWARDS = [
     awardeeLogo: HonPng,
     awardeeName: 'Database Admin',
     date: 'May 2014 – Aug 2014',
-  }
+  },
 ];
 
 export const PORTFOLIO_SHOWCASE = [
@@ -391,7 +391,6 @@ export const SERVICE_LIST = [
       {
         content: 'ASP.NET MVC',
       },
-
     ],
   },
   {

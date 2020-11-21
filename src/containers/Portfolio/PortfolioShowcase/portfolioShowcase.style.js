@@ -153,13 +153,13 @@ export const PortfolioLink = styled.div`
       width: 58px;
       height: 15px;
       position: absolute;
-      background: #C7EBA0;
+      background: #c7eba0;
       bottom: 0;
       left: 0;
       z-index: -1;
     }
     &:after {
-      background: #D8F0BD;
+      background: #d8f0bd;
       transform: scaleX(0);
       transform-origin: right center 0;
       transition: transform 0.7s cubic-bezier(0.19, 1, 0.22, 1) 0s;

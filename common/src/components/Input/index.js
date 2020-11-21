@@ -131,8 +131,7 @@ const Input = ({
           {passwordShowHide && (
             <EyeButton
               onClick={handleToggle}
-              className={state.toggle ? 'eye' : 'eye-closed'}
-            >
+              className={state.toggle ? 'eye' : 'eye-closed'}>
               <span />
             </EyeButton>
           )}
@@ -160,8 +159,7 @@ const Input = ({
 
   return (
     <InputField
-      className={`${addAllClasses.join(' ')} ${getInputFocusClass()}`}
-    >
+      className={`${addAllClasses.join(' ')} ${getInputFocusClass()}`}>
       {LabelPosition === 'top' && LabelField}
       {inputElement}
       {isMaterial && <span className="highlight" />}

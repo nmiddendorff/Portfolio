@@ -1,5 +1,6 @@
 {
-  "navItems": [{
+  "navItems": [
+    {
       "label": "Home",
       "path": "#home",
       "offset": "70"
@@ -25,7 +26,8 @@
       "offset": "70"
     }
   ],
-  "services": [{
+  "services": [
+    {
       "id": 1,
       "icon": "../../assets/image/agencyDigital/services/1.png",
       "title": "Email Subscription",
@@ -68,7 +70,8 @@
       "link": "#"
     }
   ],
-  "workHardList": [{
+  "workHardList": [
+    {
       "id": 1,
       "title": "Medical and vision"
     },
@@ -85,13 +88,15 @@
       "title": "HSAs and FSAs"
     }
   ],
-  "pricing": [{
+  "pricing": [
+    {
       "id": 1,
       "package_name": "Starter Pack",
       "price": "18.99",
       "trial_day": 15,
       "isRecommended": false,
-      "features": [{
+      "features": [
+        {
           "id": 1,
           "name": "Full Access Library",
           "isAvailable": true
@@ -124,7 +129,8 @@
       "price": "29.99",
       "trial_day": 30,
       "isRecommended": true,
-      "features": [{
+      "features": [
+        {
           "id": 1,
           "name": "Full Access Library",
           "isAvailable": true
@@ -157,7 +163,8 @@
       "price": "23.99",
       "trial_day": 30,
       "isRecommended": false,
-      "features": [{
+      "features": [
+        {
           "id": 1,
           "name": "Full Access Library",
           "isAvailable": true
@@ -190,7 +197,8 @@
       "price": "35.99",
       "trial_day": 45,
       "isRecommended": false,
-      "features": [{
+      "features": [
+        {
           "id": 1,
           "name": "Full Access Library",
           "isAvailable": true
@@ -218,7 +226,8 @@
       ]
     }
   ],
-  "helps": [{
+  "helps": [
+    {
       "id": 1,
       "icon": "../../assets/image/agencyDigital/support1.png",
       "title": "Email client support",
@@ -231,7 +240,8 @@
       "desc": "Total assessment corrections with live support tickets download access system"
     }
   ],
-  "newsFeed": [{
+  "newsFeed": [
+    {
       "id": 1,
       "image": "../../assets/image/agencyDigital/news/1.png",
       "title": "Introducing our newest team with great experience",
@@ -260,10 +270,12 @@
       "link": ""
     }
   ],
-  "footer": [{
+  "footer": [
+    {
       "id": 1,
       "title": "Company",
-      "list": [{
+      "list": [
+        {
           "id": 1,
           "title": "About",
           "link": "#"
@@ -293,7 +305,8 @@
     {
       "id": 2,
       "title": "About Us",
-      "list": [{
+      "list": [
+        {
           "id": 1,
           "title": "Support Center",
           "link": "#"
@@ -323,7 +336,8 @@
     {
       "id": 3,
       "title": "Our Information",
-      "list": [{
+      "list": [
+        {
           "id": 1,
           "title": "Return Policy ",
           "link": "#"
@@ -353,7 +367,8 @@
     {
       "id": 4,
       "title": "My Account",
-      "list": [{
+      "list": [
+        {
           "id": 1,
           "title": "Press inquiries",
           "link": "#"
@@ -383,7 +398,8 @@
     {
       "id": 5,
       "title": "Policy",
-      "list": [{
+      "list": [
+        {
           "id": 1,
           "title": "Application security",
           "link": "#"
@@ -406,7 +422,8 @@
       ]
     }
   ],
-  "footerNav": [{
+  "footerNav": [
+    {
       "id": 1,
       "title": "Home",
       "link": "#"

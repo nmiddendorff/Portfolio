@@ -72,8 +72,7 @@ const TestimonialSection = ({
               <NextButton>
                 <span />
               </NextButton>
-            }
-          >
+            }>
             <>
               {TESTIMONIAL.map((item, index) => (
                 <GlideSlide key={`testimonial-item-${index}`}>

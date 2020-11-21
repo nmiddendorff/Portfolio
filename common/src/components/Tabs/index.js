@@ -12,7 +12,7 @@ const Tab = ({ active, className, children }) => {
     active: active || 0,
   });
 
-  const handleChange = index => {
+  const handleChange = (index) => {
     setState({ active: index });
   };
 
@@ -30,8 +30,7 @@ const Tab = ({ active, className, children }) => {
             <MenuItem
               key={index}
               className={activeClass}
-              onClick={() => handleChange(index)}
-            >
+              onClick={() => handleChange(index)}>
               {element.props.title}
             </MenuItem>
           );

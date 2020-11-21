@@ -18,7 +18,7 @@ class DatePicker extends Component {
     this.onFocusChangeFunc = this.onFocusChangeFunc.bind(this);
   }
 
-  onDateChangeFunc = date => {
+  onDateChangeFunc = (date) => {
     // ********* Date passing will be START here.... *********
     // const { dateFormat } = this.state;
     // const newDate = date.format(dateFormat);

@@ -57,8 +57,7 @@ const Switch = ({
       switchColor={switchColor}
       switchSize={switchSize}
       barColor={barColor}
-      {...props}
-    >
+      {...props}>
       <label>
         {position === 'left' || position === 'right' || position === 'top'
           ? LabelField
