@@ -42,6 +42,19 @@ export default class CustomDocument extends Document {
                 `,
             }}
           />
+          <script
+            type="text/javascript"
+            dangerouslySetInnerHTML={{
+              __html: `
+              window.smartlook||(function(d) {
+                var o=smartlook=function(){ o.api.push(arguments)},h=d.getElementsByTagName('head')[0];
+                var c=d.createElement('script');o.api=new Array();c.async=true;c.type='text/javascript';
+                c.charset='utf-8';c.src='https://rec.smartlook.com/recorder.js';h.appendChild(c);
+                })(document);
+                smartlook('init', 'cb28b5ce2a151e3e939477198989f631266f57df');
+                `,
+            }}
+          />
         </Head>
         <body>
           <Main />
