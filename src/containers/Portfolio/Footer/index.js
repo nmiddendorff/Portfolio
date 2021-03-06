@@ -10,6 +10,10 @@ import Input from '../../../../common/src/components/Input';
 import Container from '../../../../common/src/components/UI/Container';
 import SocialProfile from '../SocialProfile';
 
+const d = new Date();
+const currentYear = d.getFullYear();
+const yearString = `© ${currentYear} All rights reserved. `
+
 import {
   FooterWrapper,
   Newsletter,
@@ -43,7 +47,7 @@ const Footer = ({
         />
         <Text
           as="span"
-          content="© 2018 All rights reserved. "
+          content={yearString}
           {...copyrightStyle}
         />
       </Container>
