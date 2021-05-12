@@ -64,7 +64,7 @@
     "react-stickynode": "2.1.1",
     "styled-components": "^5.1.1",
     "styled-system": "5.1.5",
-    "swiper": "^5.4.5"
+    "swiper": "^6.5.1"
   },
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
