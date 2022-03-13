@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Text from '../../Text';
 import Link from '../../Link';
-import Image from '../../Image';
+// import Image from '../../Image';
+
+import Image from 'next/image';
 
 const Logo = ({
   logoWrapperStyle,
@@ -18,7 +20,13 @@ const Logo = ({
     {withAchor ? (
       <a {...anchorProps}>
         {logoSrc ? (
-          <Image src={logoSrc} alt={title} {...logoStyle} />
+          <Image
+            src={logoSrc}
+            alt={title}
+            height="20px"
+            width="120px"
+            {...logoStyle}
+          />
         ) : (
           <Text content={title} {...titleStyle} />
         )}
@@ -26,7 +34,13 @@ const Logo = ({
     ) : (
       <>
         {logoSrc ? (
-          <Image src={logoSrc} alt={title} {...logoStyle} />
+          <Image
+            src={logoSrc}
+            alt={title}
+            height="20px"
+            width="120px"
+            {...logoStyle}
+          />
         ) : (
           <Text content={title} {...titleStyle} />
         )}

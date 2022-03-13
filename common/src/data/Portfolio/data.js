@@ -72,7 +72,7 @@ export const AWARDS = [
     awardName: 'Hy-Vee',
     awardDetails: 'Aisles Online Web and Mobile Apps',
     awardeeLogo: HyVeePng,
-    awardeeName: 'Software Engineer III',
+    awardeeName: 'Software Engineering Manager',
     date: 'Feb 2018 - Current',
   },
   {
