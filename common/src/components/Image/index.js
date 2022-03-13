@@ -2,8 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 import { base, themed } from '../base';
+import Image from 'next/image';
 
-const ImageWrapper = styled('img')(
+
+const ImageWrapper = styled(Image)(
   {
     display: 'block',
     maxWidth: '100%',
@@ -11,20 +13,20 @@ const ImageWrapper = styled('img')(
     width: '100%',
   },
   base,
-  themed('Image')
+  themed('ImageItem')
 );
 
-const Image = ({ src, alt, ...props }) => (
+const ImageItem = ({ src, alt, ...props }) => (
   <ImageWrapper src={src} alt={alt} {...props} />
 );
 
-export default Image;
+export default ImageItem;
 
-Image.propTypes = {
+ImageItem.propTypes = {
   src: PropTypes.string.isRequired,
   alt: PropTypes.string.isRequired,
 };
 
-Image.defaultProps = {
+ImageItem.defaultProps = {
   m: 0,
 };
