@@ -85,9 +85,9 @@ const TestimonialSection = ({
                         />
                       </TestimonialThumb>
                       <Link href={item.twitterProfile || '#'}>
-                        <a aria-label="twitter">
+                        <>
                           <Icon icon={twitter} size={24} />
-                        </a>
+                        </>
                       </Link>
                     </TestimonialHead>
                     <Text {...reviewStyle} content={item.review} />
@@ -98,7 +98,7 @@ const TestimonialSection = ({
                       {...designationStyle}
                     />
                     <Link href={item.organizationURL || '#'}>
-                      <a className="reviewer_org">{item.organization}</a>
+                      <span className="reviewer_org">{item.organization}</span>
                     </Link>
                   </TestimonialItem>
                 </GlideSlide>

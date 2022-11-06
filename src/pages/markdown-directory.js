@@ -15,7 +15,7 @@ export default function IndexPage({ postData }) {
         {postData.map((data) => (
           <li>
             <Link href="/markdown/[slug]" as={`/markdown/${data.slug}`}>
-              <a>{data.frontMatter.title}</a>
+              <>{data.frontMatter.title}</>
             </Link>
           </li>
         ))}

@@ -16,7 +16,7 @@ const Logo = ({
   title,
   ...props
 }) => (
-  <Link {...props} {...logoWrapperStyle}>
+  <Link {...props} {...logoWrapperStyle} legacyBehavior>
     {withAchor ? (
       <a {...anchorProps}>
         {logoSrc ? (

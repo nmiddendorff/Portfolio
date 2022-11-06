@@ -7,10 +7,10 @@ const List = ({ className, icon, text, link, ...props }) => (
   <ListWrapper className={className}>
     {link ? (
       <Link href={link}>
-        <a>
+        <>
           {icon}
           {text}
-        </a>
+        </>
       </Link>
     ) : (
       <Fragment>

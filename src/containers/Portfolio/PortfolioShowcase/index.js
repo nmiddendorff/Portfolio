@@ -90,7 +90,9 @@ const PortfolioShowcase = ({
                           </Box>
                           <Box {...portfolioDetails}>
                             <PortfolioLink>
-                              <Link href={portfolioItem.link || '#'}>
+                              <Link
+                                legacyBehavior
+                                href={portfolioItem.link || '#'}>
                                 <a>VISIT LIVE SITE</a>
                               </Link>
                             </PortfolioLink>
@@ -125,7 +127,7 @@ const PortfolioShowcase = ({
                                   FEATURED IN
                                   <Link
                                     href={portfolioItem.featuredLink || '#'}>
-                                    <a>{portfolioItem.featuredIn}</a>
+                                    <>{portfolioItem.featuredIn}</>
                                   </Link>
                                 </MetaItem>
                               ) : (

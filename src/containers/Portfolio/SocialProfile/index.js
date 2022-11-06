@@ -18,12 +18,12 @@ const SocialProfile = ({ items, className, iconSize }) => {
           key={`social-item-${index}`}
           className="social_profile_item">
           <Link href={item.url || '#'}>
-            <a aria-label="social icon">
+            <>
               <Icon
                 icon={item.icon || socialDribbbleOutline}
                 size={iconSize || 22}
               />
-            </a>
+            </>
           </Link>
         </SocialProfileItem>
       ))}

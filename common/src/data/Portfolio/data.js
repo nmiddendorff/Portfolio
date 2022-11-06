@@ -7,6 +7,7 @@ import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGooglepl
 import HonPng from '../../assets/image/portfolio/hon_color.png';
 import FastpathPng from '../../assets/image/portfolio/fastpath_color.png';
 import HyVeePng from '../../assets/image/portfolio/hy-vee_color.png';
+import NerdWalletPng from '../../assets/image/portfolio/nerdwallet_color.png';
 import Awardee4 from '../../assets/image/portfolio/awardee-4.png';
 import AwardImage1 from '../../assets/image/portfolio/award-1.png';
 import AwardImage2 from '../../assets/image/portfolio/award-2.png';
@@ -68,12 +69,20 @@ export const MENU_ITEMS = [
 
 export const AWARDS = [
   {
+    awardLogo: NerdWalletPng,
+    awardName: 'NerdWallet',
+    awardDetails: 'Frontend Infrastructure Team',
+    awardeeLogo: NerdWalletPng,
+    awardeeName: 'Staff Software Engineer',
+    date: 'May 2022 - Current',
+  },
+  {
     awardLogo: HyVeePng,
     awardName: 'Hy-Vee',
     awardDetails: 'Aisles Online Web and Mobile Apps',
     awardeeLogo: HyVeePng,
     awardeeName: 'Software Engineering Manager',
-    date: 'Feb 2018 - Current',
+    date: 'Feb 2018 - April 2022',
   },
   {
     awardLogo: FastpathPng,

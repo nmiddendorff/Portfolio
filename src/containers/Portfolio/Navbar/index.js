@@ -30,7 +30,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
     <NavbarWrapper {...navbarStyle} className="portfolio_navbar">
       <Container noGutter mobileGutter width="1200px">
         <Box {...row}>
-          <Logo
+          {/* <Logo
             href="#"
             logoSrc={LogoImage}
             title="Portfolio"
@@ -43,18 +43,13 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
             title="Portfolio"
             logoStyle={logoStyle}
             className="logo-alt"
-          />
+          /> */}
           <Box {...menuWrapper}>
             <ScrollSpyMenu
               className="main_menu"
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            {/* <Link href="#">
-              <a className="navbar_button">
-                <Button {...button} title="LET'S TALK" />
-              </a>
-            </Link> */}
             <Drawer
               width="420px"
               placement="right"
@@ -67,11 +62,6 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper }) => {
                 drawerClose={true}
                 offset={-100}
               />
-              {/* <Link href="#">
-                <a className="navbar_drawer_button">
-                  <Button {...button} title="LET'S TALK" />
-                </a>
-              </Link> */}
             </Drawer>
           </Box>
         </Box>
