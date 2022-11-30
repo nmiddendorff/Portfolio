@@ -10,10 +10,6 @@ import Input from '../../../../common/src/components/Input';
 import Container from '../../../../common/src/components/UI/Container';
 import SocialProfile from '../SocialProfile';
 
-const d = new Date();
-const currentYear = d.getFullYear();
-const yearString = `© ${currentYear} All rights reserved. `
-
 import {
   FooterWrapper,
   Newsletter,
@@ -23,6 +19,10 @@ import {
 import { FOOTER_MENU } from '../../../../common/src/data/Portfolio/data';
 import { SOCIAL_PROFILES } from '../../../../common/src/data/Portfolio/data';
 import { heart } from 'react-icons-kit/fa/heart';
+
+const d = new Date();
+const currentYear = d.getFullYear();
+const yearString = `© ${currentYear} All rights reserved. `;
 
 const Footer = ({
   row,
@@ -45,11 +45,7 @@ const Footer = ({
           items={SOCIAL_PROFILES}
           iconSize={40}
         />
-        <Text
-          as="span"
-          content={yearString}
-          {...copyrightStyle}
-        />
+        <Text as="span" content={yearString} {...copyrightStyle} />
       </Container>
     </FooterWrapper>
   );

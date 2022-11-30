@@ -1,6 +1,7 @@
 import React from 'react';
 import { ServerStyleSheet, StyleSheetManager } from 'styled-components';
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export function useStyledComponentsRegistry() {
   const [styledComponentsStyleSheet] = React.useState(
     () => new ServerStyleSheet()

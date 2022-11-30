@@ -38,7 +38,10 @@ const BannerSection = ({
                 style={{ color: '#3444f1' }}
                 size={22}
               />
-              <Heading content="Software Engineer @ NerdWallet" {...roleStyle} />
+              <Heading
+                content="Software Engineer @ NerdWallet"
+                {...roleStyle}
+              />
             </Box>
             {/* <Text
               content="I love turning ideas into software."
