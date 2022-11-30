@@ -17,14 +17,11 @@ import {
   AwardeeWrapper,
   AwardeeLogo,
   AwardeeDetails,
-  AwardImageWrapper,
 } from './awards.style';
 
 const AwardsSection = ({
   secTitleWrapper,
   secTitle,
-  secDescription,
-  awardLogoStyle,
   awardNameStyle,
   awardDetailsStyle,
   awardeeLogoStyle,
