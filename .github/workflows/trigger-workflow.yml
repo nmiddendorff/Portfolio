@@ -1,4 +1,4 @@
-name: Test push to master event
+name: Test push to tester event
 on: 
   push:
     branches:
