@@ -1,5 +1,7 @@
 name: Test push to tester event
-on: push
+on: 
+  push:
+    branches: [ tester ]
 
 jobs:
   Auto:
