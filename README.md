@@ -13,6 +13,7 @@
 - 🚫 **lint-staged** - Run linters against staged git files
 - 🗂 **Absolute import** - Import folders and files using the `@` prefix
 
+
 ## 🚀 Getting started
 
 1. `yarn`;
