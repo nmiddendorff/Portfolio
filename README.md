@@ -14,7 +14,6 @@
 - 🗂 **Absolute import** - Import folders and files using the `@` prefix
 
 
-
 ## 🚀 Getting started
 
 1. `yarn`;
